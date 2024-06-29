@@ -1,0 +1,16 @@
+/* CSS Document */
+body{font-family:"微软雅黑";}
+.container,.container-fluid{ position:relative;}
+.bz-table-view{ display:table; table-layout:fixed; width:100%;}
+.bz-table-view>li{ display:table-cell; vertical-align:top;}
+.bz-table-view>li *{}
+.bz-table-view.align-middle>li{ vertical-align:middle;}
+
+.form-control{ box-shadow:none;}
+.btn-primary{ background-color:#06F;}
+.btn-primary.active,.btn-primary:hover,.btn-primary:active,.btn-primary:visited{ background-color:#0033FF !important;}
+.text-danger{ color:#FF0000;}
+a,a:hover{ text-decoration:none !important;}
+@media(min-width:980px){
+	.container{ width:980px;}
+}
